@@ -93,7 +93,7 @@ public class LugarDAO {
          return null;
       }
 
-      return peliculas;
+      return lugares;
    }
 
 }

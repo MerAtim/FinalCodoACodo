@@ -34,7 +34,7 @@ public class LugarServlet extends HttpServlet{
 
       Lugar lugar = objectMapper.readValue(req.getInputStream(), Lugar.class);
 
-      Long id = lugarDAO.insertarLugar(lugar);
+      int id = lugarDAO.insertarLugar(lugar);
 
       // Convertir el id a JSON
       String jsonResponse = objectMapper.writeValueAsString(id);
