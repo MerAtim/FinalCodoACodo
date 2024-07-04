@@ -11,7 +11,7 @@ import java.util.List;
 import javax.swing.JOptionPane;
 
 public class LugarDAO {
-
+   // ----------------Create-----------------------//
    public Long insertarLugar(Lugar lugar) {
 
       String insertLugarSql = "INSERT INTO lugares (nombre, descripcion, ubicacion, imagen) VALUES (?,?,?,?)";
@@ -40,7 +40,7 @@ public class LugarDAO {
 
             if (rs.next()) {
                System.out.println("El lugar fue insertado correctamente");
-               return rs.getLong(1);
+               return rs.getInt(1);
             } else {
                System.out.println("Error al obtener el ID del lugar insertada");
                return null;
@@ -54,6 +54,7 @@ public class LugarDAO {
       return null;
    }
 
+   // ------------------Read----------------------//
    public List<Lugar> getAllLugares() {
 
       String selectAllLugaresSql = "SELECT * FROM lugares";
@@ -89,7 +90,7 @@ public class LugarDAO {
          }
 
       } catch (Exception e) {
-         JOptionPane.showMessageDialog(null, e.printStackTrace());
+         JOptionPane.showMessageDialog(null, "Error: " + e.getMessage());
          return null;
       }
 

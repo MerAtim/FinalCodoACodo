@@ -1,4 +1,5 @@
-d:\CursoJava\2024\24103\apimovies\webapp\src\main\java\com\ar\apimovies\Pelicula.java
-d:\CursoJava\2024\24103\apimovies\webapp\src\main\java\com\ar\apimovies\PeliculaServlet.java
-d:\CursoJava\2024\24103\apimovies\webapp\src\main\java\com\ar\apimovies\PeliculaDAO.java
-d:\CursoJava\2024\24103\apimovies\webapp\src\main\java\com\ar\apimovies\DatabasesConnection.java
+c:\Users\MyL\Desktop\apiturismo\webapp\src\main\java\com\ar\apiturismo\LugarServlet.java
+c:\Users\MyL\Desktop\apiturismo\webapp\src\main\java\com\ar\apiturismo\Lugar.java
+c:\Users\MyL\Desktop\apiturismo\webapp\src\main\java\com\ar\apiturismo\LugarDAO.java
+c:\Users\MyL\Desktop\apiturismo\webapp\src\main\java\com\ar\apiturismo\DatabasesConnection.java
+c:\Users\MyL\Desktop\apiturismo\webapp\src\main\java\com\ar\apiturismo\CorsFilter.java
